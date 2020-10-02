@@ -5,6 +5,7 @@ Hello, Welcome to Hacktoberfest Meetup Nepal-2020
 In this repository we are going to solve some simple programming questions.
 
 **You can choose your preffered programming language to solve**
+Dont forget to follow me and **star** this repo.
 
 # Process
 
