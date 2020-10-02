@@ -20,29 +20,31 @@ Example: TheMakersSquad_sumofnumbers.cpp
 
 # Questions
 
-There are total **25** questions divided into 4 different sections.
+There are total **26** questions divided into 4 different sections.
 
 ## Simple Programmes[Beginner Friendly]
 
-**1. Write a program to display sum of two numbers.**
+**1.Write a program to print "Hello World".
 
-**2. Write a program to display sum of two digits.**
+**2. Write a program to display sum of two numbers.**
 
-**3. Write a program to check whether the number is odd or even.**
+**3. Write a program to display sum of two digits.**
 
-**4. Write a program to implement if else statement.**
+**4. Write a program to check whether the number is odd or even.**
 
-**5. Write a program to use basic for loop.**
+**5. Write a program to implement if else statement.**
 
-**6. Write a program to find square of a number**
+**6. Write a program to use basic for loop.**
 
-**7. Write a program to change letters of string to UPPERCASE**
+**7. Write a program to find square of a number**
 
-**8. Write a program to display sum of two numbers**
+**8. Write a program to change letters of string to UPPERCASE**
 
-**9. Write a program to test whether the string is palindorme or not.**
+**9. Write a program to display sum of two numbers**
 
-**10. Write a program to insert element to array**
+**10. Write a program to test whether the string is palindorme or not.**
+
+**11. Write a program to insert element to array**
 
 
 ## Number Systems
