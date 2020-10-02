@@ -50,17 +50,23 @@ There are total **25** questions divided into 4 different sections.
 We have some programmes related to Number Systems, Try this out.
 
 **1. Write a program to convert Binary to Decimal**
-**2. Write a program to convert Decimal to Binary**
-**3. Write a program to convert Decimal to Octal**
-**4. Write a program to convert Binary to Octal**
-**5. Write a program to convert Octal to Binary**
 
+**2. Write a program to convert Decimal to Binary**
+
+**3. Write a program to convert Decimal to Octal**
+
+**4. Write a program to convert Binary to Octal**
+
+**5. Write a program to convert Octal to Binary**
 
 ## Sorting Programs
 
 **1. Write a program to implement Bubble Sort**
+
 **2. Write a program to implement Insertion Sort**
+
 **3. Write a program to implement Selection Sort**
+
 **4. Write a program to implement Quick Sort**
 
 ## A Simple Challange For You
