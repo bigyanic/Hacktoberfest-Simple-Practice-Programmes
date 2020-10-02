@@ -1,14 +1,21 @@
 # Simple Practice Programmes 
+
 Hello, Welcome to Hacktoberfest Meetup Nepal-2020
+
 In this repository we are going to solve some simple programming questions.
+
 **You can choose your preffered programming language to solve**
 
 # Process
 
 **Step-1** Fork this Repository
+
 **Step-2** Open this Repository
+
 **Step-3** Start solving questions and merge it by createing a branch
+
 **Dont forget to add your name and name of the program you some on the file you create**
+
 Example: TheMakersSquad_sumofnumbers.cpp
 
 # Questions
@@ -16,6 +23,7 @@ Example: TheMakersSquad_sumofnumbers.cpp
 There are total **25** questions divided into 4 different sections.
 
 ## Simple Programmes[Beginner Friendly]
+
 **1. Write a program to display sum of two numbers.**
 
 **2. Write a program to display sum of two digits.**
@@ -25,10 +33,15 @@ There are total **25** questions divided into 4 different sections.
 **4. Write a program to implement if else statement.**
 
 **5. Write a program to use basic for loop.**
+
 **6. Write a program to find square of a number**
+
 **7. Write a program to change letters of string to UPPERCASE**
+
 **8. Write a program to display sum of two numbers**
+
 **9. Write a program to test whether the string is palindorme or not.**
+
 **10. Write a program to insert element to array**
 
 
