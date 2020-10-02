@@ -17,9 +17,13 @@ There are total **25** questions divided into 4 different sections.
 
 ## Simple Programmes[Beginner Friendly]
 **1. Write a program to display sum of two numbers.**
+
 **2. Write a program to display sum of two digits.**
+
 **3. Write a program to check whether the number is odd or even.**
+
 **4. Write a program to implement if else statement.**
+
 **5. Write a program to use basic for loop.**
 **6. Write a program to find square of a number**
 **7. Write a program to change letters of string to UPPERCASE**
