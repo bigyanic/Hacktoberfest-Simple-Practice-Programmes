@@ -24,7 +24,7 @@ There are total **26** questions divided into 4 different sections.
 
 ## Simple Programmes[Beginner Friendly]
 
-**1.Write a program to print "Hello World".
+**1.Write a program to print "Hello World".**
 
 **2. Write a program to display sum of two numbers.**
 
