@@ -1,6 +1,6 @@
-let number = 10
-square(number)
-function square(number) {
-    let result = number * number
-    console.log("Square of number is " + result)
+let number = 100
+square(num)
+function square(num) {
+    let result = num * num
+    console.log("Square of num is " + result)
 }
