@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+import "strconv"
+
+//You can use the strconv function to convert from decimal to any numerical system
+
+func main() {
+	n := int64(127)
+	fmt.Println(strconv.FormatInt(n, 2))//Here you choose the base of any numerical system you want
+}
