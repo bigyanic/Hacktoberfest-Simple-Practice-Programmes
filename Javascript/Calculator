@@ -1,0 +1,31 @@
+<script>
+function calculate_this() {
+  var input = document.getElementById('numbers').value;
+  var results = eval(input);
+  document.getElementById('results').innerHTML = results;
+}
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIMPLE CALCULATOR | WELCOME</title>
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+</head>
+<body class="d-block bg-dark text-light mt-4 min-vh-100">
+<div class="container">
+<div class="d-flex flex-column justify-content-center align-items-center">
+	<h1 class="text-center">CALCULATOR</h1>
+	<input type="text" id="numbers" value="" placeholder="INPUT NUMBERS HERE" class="w-100 text-center py-1 mb-3">
+	<input type=button value="Calculate" onClick="calculate_this()" class="w-50 py-2"><br>
+	<p class="text-center">RESULT <span id="results">(CLICK "CALCULATE")</span></p>
+</div>
+</div>
+<footer>
+<p class="text-center">Belamo's web app ©2020</p>
+</body>
+</html>
