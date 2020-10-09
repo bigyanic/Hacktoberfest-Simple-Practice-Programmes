@@ -1,5 +1,5 @@
 
-let num = 69
+let num = parseInt(prompt("Please enter a number", "6"));
 cube(num)
 function cube(num) {
     let result = num * num * num
