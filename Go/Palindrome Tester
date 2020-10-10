@@ -1,0 +1,27 @@
+package main
+
+import (
+   "fmt"
+)
+
+func Reverse(s string) (result string) {
+   for _, v := range s {
+      result = string(v) + result
+   }
+   return
+}
+
+func isPalindrome(str string) interface{} {
+   if str == Reverse(str) {
+      return true
+   }
+   return false
+}
+
+func main() {
+
+	word := "racecar"
+	if isPalindrome(word)==true{
+	fmt.Println("The word is a palindrome!")
+	}
+}
