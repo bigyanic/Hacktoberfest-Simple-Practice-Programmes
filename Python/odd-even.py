@@ -4,3 +4,12 @@ if __name__=="__main__":
         print("Even")
     else:
         print("Odd")
+
+        
+num=int(input("Enter the Number"))
+if(num%2)==0:
+	print("thats an even number".format(num))
+else:
+	print("thats an even number".format(num))
+
+
