@@ -76,3 +76,14 @@ We have some programmes related to Number Systems, Try this out.
 ## A Simple Challange For You
 
 **1. Write a program to make a simple calculator**
+
+## 🤗 Other Repositories to contribute to
+
+- [Hacktoberfest-Nepal](https://github.com/Parajulibkrm/Hacktoberfest-Nepal)
+
+- [the_poetry_forum](https://github.com/Sandesh-Sharma/the_poetry_forum)
+
+- [Hacktoberfest-Nepal-2020](https://github.com/Saugat-Adhikari/Hacktoberfest-Nepal-2020)
+
+- [Hacktoberfest](https://github.com/arjunadhikary/Hacktoberfest)
+
