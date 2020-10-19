@@ -14,3 +14,16 @@ public class Factorial {
 	}
 
 }
+
+class factorial
+{
+	public static void main(String args[])
+	{
+		 int fact=1;
+		 for(int i=4;i>0;i--)
+		 {
+		 	fact*=i;
+		 }
+		 System.out.print("fact"+fact);
+	}
+}
