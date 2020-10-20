@@ -1,4 +1,4 @@
-let number = 10
+let number = prompt('Enter a number: ')
 check(number)
 
 function check(number){
