@@ -1,6 +1,6 @@
 function main(){
-  let a = 2;
-  let b = 4;
+  let a = prompt('enter 1st number ');
+  let b = prompt('enter 2nd number ');
   
   let sum = a+b;
   
