@@ -1,0 +1,15 @@
+Scatter plots are frequently used in data science and machine learning projects.Scatter plots are used to visualize the relationship between two (or sometimes three) variables in a data set
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+#one can load any dataset
+
+df = pd.read_csv("wheat.csv")
+print(df.columns)
+
+df.plot.scatter(x='area', y='perimeter')
+df.plot.scatter(x='groove', y='asymmetry')
+df.plot.scatter(x='compactness', y='width')
+
+plt.show()
