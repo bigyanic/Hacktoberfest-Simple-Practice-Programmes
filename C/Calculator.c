@@ -1,30 +1,45 @@
-#include<stdio.h> // include stdio.h library
-
-int main(void)
-{       
-    int a, b, result;
-    char op; // to store the operator
-    
-    printf("Enter an expression: ");
-    scanf("%d%c%d", &a, &op, &b);
-
-    switch(op)
+#include <stdio.h>
+ 
+int main()
+{
+    int num1,num2;
+    float result;
+    char ch;    //to store operator choice
+     
+    printf("Enter first number: ");
+    scanf("%d",&num1);
+    printf("Enter second number: ");
+    scanf("%d",&num2);
+     
+    printf("Choose operation to perform (+,-,*,/,%): ");
+    scanf(" %c",&ch);
+     
+    result=0;
+    switch(ch)    
     {
-        case '+':// For Addition
-            result = a + b;
+        case '+':
+            result=num1+num2;
             break;
-        case '-':// For Substraction
-            result = a - b;
+             
+        case '-':
+            result=num1-num2;
             break;
-        case '*':// For Multiplication
-            result = a * b;
+         
+        case '*':
+            result=num1*num2;
             break;
-        case '/':// For Division 
-            result = a / b;
-            break;              
+             
+        case '/':
+            result=(float)num1/(float)num2;
+            break;
+             
+        case '%':
+            result=num1%num2;
+            break;
+        default:
+            printf("Invalid operation.\n");
     }
-    
-    printf("Result = %d", result);
-    
-    return 0; // return 0 to operating system
+ 
+    printf("Result: %d %c %d = %f\n",num1,ch,num2,result);
+    return 0;
 }
