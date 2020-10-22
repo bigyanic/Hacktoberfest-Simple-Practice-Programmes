@@ -14,9 +14,9 @@ Don't forget to follow me and **star** this repo.
 
 **Step-2** Open this Repository
 
-**Step-3** Start solving questions and merge it by createing a branch
+**Step-3** Start solving questions and merge it by creating a branch
 
-**Dont forget to add your name and name of the program you some on the file you create**
+**Don't forget to add your name and name of the program you some on the file you create**
 
 Example: TheMakersSquad_sumofnumbers.cpp
 
@@ -26,7 +26,7 @@ There are total **26** questions divided into 4 different sections.
 
 ## Simple Programmes[Beginner Friendly]
 
-**1.Write a program to print "Hello World".**
+**1. Write a program to print "Hello World".**
 
 **2. Write a program to display sum of two numbers.**
 
