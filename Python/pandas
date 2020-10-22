@@ -1,0 +1,18 @@
+Pandas is an open source Python package that provides numerous tools for data analysis. The package comes with several data structures that can be used for many different data manipulation tasks
+#importing pandas and matplotlib library 
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
+#loading dataset
+df = pd.read_csv("wheat.csv")
+print(df.columns) 
+s1 = df[['area','perimeter']]
+print(s1.head())
+s2 = df[['groove','asymmetry']]
+#printing first values
+print(s2.head())
+s1.plot.hist(alpha=0.75)
+s2.plot.hist(alpha=0.75)
+#showing histogram plots
+plt.show()
+pd.DataFrame.var(s2.asymmetry)
