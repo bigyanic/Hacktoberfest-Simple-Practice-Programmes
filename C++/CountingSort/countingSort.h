@@ -10,13 +10,13 @@ std::array<int, SIZE> countingSort(const std::array<int, SIZE> &array_to_sort)
     {
         tmp.at(i) = 0;
     }
-    
+
     for (unsigned int i = 0; i < SIZE; ++i)
     {
         tmp.at(array_to_sort.at(i)) += 1;
     }
 
-    for (unsigned int i = 0; i <= MAX; ++i)
+    for (unsigned int i = 1; i <= MAX; ++i)
     {
         tmp.at(i) += tmp.at(i-1);
     }
