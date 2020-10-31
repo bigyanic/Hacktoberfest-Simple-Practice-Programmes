@@ -1,4 +1,3 @@
-#include <iostream>
 #include "bisectionMethod.h"
 
 /**
@@ -25,7 +24,6 @@ double bisection(double a, double b, double (*f)(const double), const double e)
         double f_a = f(a);
         double f_b = f(b);
 
-        std::cerr << i+1 << ' ' << a << ' ' << b << ' ' << f_m << '\n';
         if (f_a == 0.0)
         {
             return a;
