@@ -21,7 +21,8 @@ double euler(const double x0, const double y0, const double h, double (*f)(const
     {
         y = y_prev + h * f(x, y_prev);
         err = y_prev - y;
-        std::cerr << y << '\t' << err << '\n';
+
+        std::cerr << i << '\t' << y << '\t' << err << '\n';
         if (err <= e)
         {
             break;
