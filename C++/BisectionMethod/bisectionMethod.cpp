@@ -1,3 +1,4 @@
+#include <iostream>
 #include "bisectionMethod.h"
 
 /**
@@ -15,16 +16,16 @@ T abs(const T x)
     return (x >= 0) ? x : -x;
 }
 
-double bisection(const double a, const double b, double (*f)(const double), const double e)
+double bisection(double a, double b, double (*f)(const double), const double e)
 {
-    double x_m = (a + b) / 2;
-
     for (int i = 0; i < 1000000 && abs(b - a) > e; ++i)
     {
+        double x_m = (a + b) / 2;
         double f_m = f(x_m);
         double f_a = f(a);
         double f_b = f(b);
 
+        std::cerr << i+1 << ' ' << a << ' ' << b << ' ' << f_m << '\n';
         if (f_a == 0.0)
         {
             return a;
@@ -40,15 +41,14 @@ double bisection(const double a, const double b, double (*f)(const double), cons
             return x_m;
         }
 
-        if ((f_b * f_m) > 0)
+        if ((f_b * f_m) > 0.0)
         {
-            x_m = (a + x_m) / 2;
+            b = x_m;
         }
-        else if ((f_b * f_m) < 0)
+        else if ((f_b * f_m) < 0.0)
         {
-            x_m = (b + x_m) / 2;
+            a = x_m;
         }
     }
-    
-    return x_m;
+    return (a + b) / 2;
 }

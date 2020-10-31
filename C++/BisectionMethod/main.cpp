@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::cout << bisection(0, 5, func2, 0.01) << '\n';
+    std::cout << bisection(1, 2, func3, 0.001) << '\n';
 
     return 0;
 }

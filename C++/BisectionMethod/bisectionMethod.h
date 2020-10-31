@@ -15,4 +15,4 @@ constexpr double func3(const double x)
     return x*x*x - x - 2;
 }
 
-double bisection(const double a, const double b, double (*f)(const double), const double e);
+double bisection(double a, double b, double (*f)(const double), const double e);
