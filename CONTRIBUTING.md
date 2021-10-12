@@ -16,7 +16,7 @@ The following steps below outline how to make contributions to the existing proj
 
 ## Step 1 : Go through README file
 
-- There are some coding challanges questions to solve in readme.md
+- There are some coding challenges and questions to solve in readme.md
 - You can go through it and choose the questions you love to solve
 
 ## Step 2: Choose your language
