@@ -1,0 +1,9 @@
+export class StringDateToDate {
+  private partDate: number[];
+  constructor(private value: string) {
+    this.partDate = value.split('/').map((term) => parseInt(term));
+  }
+  parsedDate(): Date {
+    return new Date(this.partDate[0], this.partDate[1] - 1, this.partDate[2]);
+  }
+}
